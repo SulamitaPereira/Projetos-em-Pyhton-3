@@ -15,3 +15,14 @@ tangente = math.tan(math.radians(ang))
 print ('O ângulo tem o SENO de {:.2f}' .format(seno))
 print ('O COSSENO de {:.2f}' .format(cosseno))
 print ('E a TANGENTE de {:.2f}' .format(tangente))
+
+///
+
+from math import radians, sin, cos, tan
+ang = float(input('Digite o valor do ângulo: ')
+seno = sin(radians(ang))
+cosseno = cos(radians(ang))
+tangente = tan(radians(ang))
+print ('O ângulo tem o SENO de {:.2f}' .format(seno))
+print ('O COSSENO de {:.2f}' .format(cosseno))
+print ('E a TANGENTE de {:.2f}' .format(tangente))
