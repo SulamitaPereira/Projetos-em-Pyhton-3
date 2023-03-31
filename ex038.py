@@ -10,9 +10,9 @@ sobrenome = input(str('Sobrenome: '))
 print('Olá, {}! É um prazer ter você aqui conosco!' .format(nome))                        
 print('Para seguirmos com a sua avaliação, preciso de algumas informações suas')          
 valor = float(input('Insira aqui o valor do imóvel que deseja financiar: R$ '))           
-print('Ok, o valor da casa é {}, e qual é o seu salário? (Renda líquida mensal)' .format(v
+print('Ok, o valor da casa é {}, e qual é o seu salário? (Renda líquida mensal)' .format(valor))
 salario = float(input('O meu salário é de R$ '))                                          
-print('Certo, já entendi! Agora me responda só mais uma coisa: Em quantos anos você preten
+print('Certo, já entendi! Agora me responda só mais uma coisa: Em quantos anos você pretende finalizar o financiamento?')
 anos = int(input('Digite aqui o número de anos inteiros: '))                              
 prestacao = valor / (anos * 12)                                                           
 minimo = salario * 30 / 100                                                               
